@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Coulson Zhang
+Coulson Zhang
 Web developer
 
 Show Contacts
