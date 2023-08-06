@@ -1879,12 +1879,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
-
-
-  .no-style-link, .no-style-link:visited, .no-style-link:hover, .no-style-link:active {
-    color: inherit;         /* inherit the text color of the parent element */
-    text-decoration: none;  /* remove underline */
-    background-color: transparent; /* remove any background */
 }
 
 }
