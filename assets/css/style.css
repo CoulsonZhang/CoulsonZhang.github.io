@@ -534,6 +534,8 @@ main {
 }
 
 .about-link-aws {
+  font-size: var(--fs-7);
+  font-weight: var(--fw-500);
   display: inline;
   color: var(--white-2);
   text-decoration: none; 
@@ -1924,6 +1926,10 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 */
 
   .timeline-text { max-width: 700px; }
+
+  .last-updated {
+    text-align: right;
 }
 
 }
+
