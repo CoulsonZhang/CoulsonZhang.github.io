@@ -293,6 +293,34 @@ article.active {
   z-index: -1;
 }
 
+.certificate-card {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 15px;
+  padding-top: 45px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  cursor: default;
+  z-index: 1;
+}
+.certificate-card {
+  display: flex;        /* Establishes this div as a flex container */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center;    /* Centers items horizontally in the container */
+  justify-content: flex-start; /* Aligns items to the start of the flex-direction, keeping the title at the top */
+}
+
+
+
+.certificate-card::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  cursor: default;
+  z-index: -1;
+}
 
 
 
@@ -1466,6 +1494,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .content-card {
+    padding: 30px;
+    padding-top: 25px;
+  }
+
+  .certificate-card {
     padding: 30px;
     padding-top: 25px;
   }
