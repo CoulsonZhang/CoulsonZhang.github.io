@@ -548,6 +548,19 @@ main {
   color: #accce6; /* columbia blue */
 }
 
+.about-link-meta {
+  display: inline;
+  color: inherit; /* Ensures the link color matches surrounding text */
+  text-decoration: none; 
+  border-bottom: 1px solid currentColor; /* currentColor will make the border take the same color as the text */
+  padding-bottom: 0; /* remove padding to get underline close */
+  transition: color 0.3s ease;
+}
+
+.about-link-meta:hover, .about-link:focus {
+  color: #0081FB; /* meta blue */
+}
+
 .about-link-ui {
   display: inline;
   color: inherit; /* Ensures the link color matches surrounding text */
